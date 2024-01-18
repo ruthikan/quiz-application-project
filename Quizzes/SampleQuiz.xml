@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<QuizML name="Sample Quiz">
+    <Description>This is a sample quiz. There are some sample questions give below but nothing is too difficult.</Description>
+    <Question type= "multichoice" points="5"> 
+        <QuestionText answer="2">What is the easy programming language?</QuestionText>
+        <Answer name="1">Java</Answer>
+        <Answer name="2">Python</Answer>
+        <Answer name="3">C++</Answer>
+        <Answer name="4">C</Answer>
+    </Question>
+    <Question type="tf" points="2">
+        <QuestionText answer="t">Is python case sensitive?</QuestionText>
+    </Question>
+    <Question type= "multichoice" points="5"> 
+        <QuestionText answer="4">Who invented python?</QuestionText>
+        <Answer name="1">James Gosling</Answer>
+        <Answer name="2">Dennis Ritchie</Answer>
+        <Answer name="3">Larry Page</Answer>
+        <Answer name="4">Guido van Rossum</Answer>
+    </Question>
+    <Question type="tf" points="3">
+        <QuestionText answer="t">Is Python object-oriented programming language?</QuestionText>
+    </Question>
+</QuizML>
+
